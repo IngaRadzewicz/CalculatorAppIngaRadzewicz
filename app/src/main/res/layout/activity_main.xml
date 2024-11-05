@@ -1,0 +1,198 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Display Panel -->
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:padding="16dp"
+        android:textSize="32sp"
+        android:background="#EFEFEF"
+        android:text="0" />
+
+    <!-- Buttons Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:rowCount="6"
+        android:layout_marginTop="16dp">
+
+        <!-- Memory Buttons -->
+        <Button
+            android:id="@+id/btnMC"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="MC" />
+
+        <Button
+            android:id="@+id/btnMR"
+            android:layout_width="75dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="MR" />
+
+        <Button
+            android:id="@+id/btnMS"
+            android:layout_width="75dp"
+            android:text="MS" />
+
+        <Button
+            android:id="@+id/btnMPlus"
+            android:layout_width="75dp"
+            android:text="M+" />
+
+        <!-- Row 2 -->
+
+        <Button
+            android:id="@+id/btnMMinus"
+            android:layout_width="75dp"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:text="M-" />
+
+        <Button
+            android:id="@+id/btnBackspace"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="←" />
+
+        <Button
+            android:id="@+id/btnClearEntry"
+            android:layout_width="75dp"
+            android:text="CE" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="75dp"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/btnSign"
+            android:layout_width="75dp"
+            android:text="+/-" />
+
+        <Button
+            android:id="@+id/btnSqrt"
+            android:layout_width="75dp"
+            android:text="√" />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="75dp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="75dp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="75dp"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="75dp"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/btnPercent"
+            android:layout_width="75dp"
+            android:text="%" />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="75dp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="75dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="75dp"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="75dp"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btnReciprocal"
+            android:layout_width="75dp"
+            android:text="1/x" />
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="75dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="75dp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="75dp"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="75dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btnEquals"
+            android:layout_width="75dp"
+            android:layout_height="96dp"
+            android:layout_row="4"
+            android:layout_rowSpan="2"
+            android:layout_column="4"
+            android:text="=" />
+
+        <!-- Row 6 -->
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btnDecimal"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:text="." />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:text="+" />
+
+
+    </GridLayout>
+
+</LinearLayout>
